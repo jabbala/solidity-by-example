@@ -1,9 +1,11 @@
-// Some primitive data types available in Solidity
-// 1. bool
-// 2. uint
-// 3. int
-// 4. address
+# Primitive Data Types:
+Some primitive data types available in Solidity
+1. bool
+2. uint
+3. int
+4. address
 
+```solidity
 pragma solidity ^0.8.13;
 
 contract Primitives {
@@ -58,3 +60,4 @@ contract Primitives {
      int public defaultInt; // 0
      address public defaultAddr; // 0x0000000000000000000000000000000000000000
 }
+```
