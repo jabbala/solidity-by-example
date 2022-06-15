@@ -1,6 +1,7 @@
-// Here is a simple contract that you can get, increment and decrement the count store in this contract
+# First App
+Here is a simple contract that you can get, increment and decrement the count store in this contract
 
-// SPDX-License-Identifier: MIT
+``` solidity
 pragma solidity ^0.8.13;
 
 contract Counter {
@@ -21,3 +22,4 @@ contract Counter {
         count -= 1;
     }
 }
+```
