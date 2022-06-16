@@ -43,3 +43,28 @@ contract Enum {
   }
 }
 ```
+## Declaring and Importing Enum
+File that the enum is declared in 
+
+```solidity
+pragma solidity ^0.8.13;
+// This is saved 'EnumDeclaration.sol
+enums Status{
+    Pending,
+    Shipped,
+    Accepted,
+    Rejected,
+    Canceled
+}
+```
+
+File that imports the enum above
+
+```solidity
+pragma solidity ^0.8.13;
+import "./EnumDeclaration.sol";
+
+contract Enum {
+  Status public status;
+}
+```
